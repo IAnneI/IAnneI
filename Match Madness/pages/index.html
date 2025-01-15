@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Madness</title>
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="pagina-inicial">
+    <audio id="background-music" autoplay loop>
+        <source src="/sounds/bg.mp3" type="audio/mp3">
+        Seu navegador não suporta a tag de áudio.
+    </audio>
+    
+    <div>
+        <button id="sondBg" class="sondBgOn">Som Ligado</button>
+    </div>
+    <div class="container">
+        <button id="modoBtn" class="modo-facil">Modo Fácil</button>
+        <button id="jogarBtn">Jogar</button>
+    </div>
+    
+    <div class="grid"></div>
+    <span class="player"></span>
+    <span class="timer">0</span>
+    
+    <div class="volume-control">
+        <label for="volumeSlider">Volume</label>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+    </div>
+
+    <script src="/js/script.js" defer></script>
+</body>
+
+</html>

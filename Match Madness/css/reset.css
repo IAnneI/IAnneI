@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body.pagina-inicial {
+    font-family: Arial, sans-serif;
+    background-image: url('/images/bg.png');
+    margin: 0;
+    padding: 0;
+}
+#modoBtn {
+    background-color: transparent;
+    border-radius: 36px;
+    width: 158px;
+    height: 56px;
+    position: relative;
+    top:705px;
+    left: 715px;
+}
+#jogarBtn {
+    background-color: transparent;
+    border-radius: 49px;
+    width: 254px;
+    height: 100px;
+    position: relative;
+    top:708px;
+    left: 875px;
+    color: transparent;
+}
+
+.volume-control {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+#volumeSlider {
+    width: 200px;
+}
+#playMusicBtn   {
+    background-color: transparent;
+    border-radius: 49px;
+    width: 254px;
+    height: 100px;
+    position: relative;
+}
